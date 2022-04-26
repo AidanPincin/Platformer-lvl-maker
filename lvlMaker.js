@@ -88,6 +88,9 @@ window.addEventListener('keydown',function(e){
     if (e.key == 'c'){
         objs.splice(0,objs.length)
     }
+    if (e.key == 't'){
+        color = '#000000'
+    }
     if (e.key == 's'){
         let txt = ''
         for (let i=0; i<70*39; i++){
@@ -107,6 +110,9 @@ window.addEventListener('keydown',function(e){
                 }
                 if (obj.c == '#0000ff'){
                     txt += 'b'
+                }
+                if (obj.c == '#000000'){
+                    txt += t
                 }
             }
             else{
