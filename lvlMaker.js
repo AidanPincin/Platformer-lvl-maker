@@ -112,7 +112,7 @@ window.addEventListener('keydown',function(e){
                     txt += 'b'
                 }
                 if (obj.c == '#000000'){
-                    txt += t
+                    txt += 't'
                 }
             }
             else{
